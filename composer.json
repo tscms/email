@@ -1,9 +1,10 @@
 {
-    "name": "shadowhand/email",
+    "name": "tscms/email",
     "description": "Email helper for Kohana, uses Swiftmailer",
     "keywords": ["kohana", "email", "helper", "module", "library", "swiftmailer"],
     "homepage": "http://github.com/shadowhand/email",
     "license": "MIT",
+    "type": "kohana-module",
     "authors": [
         {
             "name": "Woody Gilk",
@@ -11,12 +12,18 @@
         }
     ],
     "require": {
-        "php": ">=5.2.4",
+        "php": ">=5.4",
+        "composer/installers": "1.*",
         "swiftmailer/swiftmailer": "4.3.*"
     },
     "extra": {
         "branch-alias": {
             "dev-3.3/master": "3.3.x-dev"
-        }
+        },
+        "installer-paths": {
+            "vendor/kohana/modules/{$name}/": [
+                "type:kohana-module"
+            ]
+        }        
     }
 }

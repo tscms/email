@@ -2,7 +2,7 @@
     "name": "tscms/email",
     "description": "Email helper for Kohana, uses Swiftmailer",
     "keywords": ["kohana", "email", "helper", "module", "library", "swiftmailer"],
-    "homepage": "http://github.com/shadowhand/email",
+    "homepage": "https://github.com/tscms/email",
     "license": "MIT",
     "type": "kohana-module",
     "authors": [
@@ -17,9 +17,6 @@
         "swiftmailer/swiftmailer": "5.4.*"
     },
     "extra": {
-        "branch-alias": {
-            "dev-3.3/master": "3.3.x-dev"
-        },
         "installer-paths": {
             "vendor/kohana/modules/{$name}/": [
                 "type:kohana-module"

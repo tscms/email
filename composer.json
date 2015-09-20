@@ -17,6 +17,9 @@
         "swiftmailer/swiftmailer": "5.4.*"
     },
     "extra": {
+        "branch-alias": {
+            "dev-3.3/master": "3.3.x-dev"
+        },      
         "installer-paths": {
             "vendor/kohana/modules/{$name}/": [
                 "type:kohana-module"
